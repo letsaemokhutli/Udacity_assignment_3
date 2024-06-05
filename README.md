@@ -31,23 +31,23 @@ The project uses two CSV files:
 
 The project is structured as follows:
 
-### I. Exploratory Data Analysis (EDA)
+### A. Exploratory Data Analysis (EDA)
 
 Before making recommendations, we perform an exploratory analysis of the data to understand its structure and establish data facts and insights.
 
-### II. Rank Based Recommendations
+### B. Rank Based Recommendations
 
 Rank based recommendations do their recommendations based on the most popular interactions based in interactions
 
-### III. User-User Based Collaborative Filtering
+### C. User-User Based Collaborative Filtering
 
 With collaborative filtering implemented, recommendations of articles done by finding similar users based on their interactions.
 
-### IV. Matrix Factorization
+### D. Matrix Factorization
 
 Finally, we explore matrix factorization techniques to build a machine learning approach to recommendations. Which used SVD technique to be optimal and cater for new users without past interactions.
 
-### V How to Run
+### E. How to Run
 
 1. Clone the repository:
     ```bash
