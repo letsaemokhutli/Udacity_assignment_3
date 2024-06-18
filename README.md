@@ -2,11 +2,11 @@
 
 ## Introduction
 
-In this project, we analyze the interactions that users have with articles on the IBM Watson Studio platform and make recommendations to them about new articles they'll like.
+This project impliments different types of recomendation engines, ranking based, collaboraive based, and ML based, matrix facorizations by analyzing the interactions that users have with articles on the IBM Watson Studio platform and make recommendations to them about new articles they'll like. With skills gained in this project, giving customers bespoke or personalized products  in the context of business
 
 ### Motivation
 
-The motivation behind this project is to understand user behavior and provide personalized recommendations to enhance user engagement and satisfaction on the IBM Watson Studio platform.
+The motivation behind this project is to gain skill in building different types of recommendation engines understand user behavior and provide personalized recommendations to enhance user engagement and satisfaction on the IBM Watson Studio platform.
 
 ## Libraries Used
 
@@ -31,26 +31,30 @@ The project uses two CSV files:
 
 The project is structured as follows:
 
-### I. Exploratory Data Analysis (EDA)
+### A. Exploratory Data Analysis (EDA)
 
-Before making recommendations, we perform an exploratory analysis of the data to understand its structure, identify patterns, and gather insights.
+Before making recommendations, we perform an exploratory analysis of the data to understand its structure and establish data facts and insights.
 
-### II. Rank Based Recommendations
+### B. Rank Based Recommendations
 
-We start by recommending the most popular articles based on the most interactions. This serves as a baseline recommendation system.
+Rank based recommendations do their recommendations based on the most popular interactions based in interactions
 
-### III. User-User Based Collaborative Filtering
+### C. User-User Based Collaborative Filtering
 
-We implement collaborative filtering to recommend articles by finding similar users based on their interactions.
+With collaborative filtering implemented, recommendations of articles done by finding similar users based on their interactions.
 
-### IV. Content Based Recommendations (Optional)
+### D. Matrix Factorization
 
-We explore content-based recommendations by analyzing the textual content of articles and recommending similar articles based on content similarity.
+Finally, we explore matrix factorization techniques to build a machine learning approach to recommendations. Which used SVD technique to be optimal and cater for new users without past interactions.
 
-### V. Matrix Factorization
+### E. How to Run
 
-Finally, we explore matrix factorization techniques to build a machine learning approach to recommendations.
-
-## Reference
-
-The dataset is provided by Udacity as part of the Data Scientist Nanodegree program.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/restaurant-revenue-prediction.git
+    ```
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Run the capstone_prep_fle.ipnyb using jupyter notebooks:
